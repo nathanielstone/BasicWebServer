@@ -12,7 +12,7 @@ public class HttpResponse {
 
         HttpRequest req;
         String response;
-        String root = "MacintoshHD/Users/NathanStone/Desktop/Root Folder";
+        String root = 
 
     public HttpResponse(HttpRequest request) {
         req = request;
@@ -42,8 +42,6 @@ public class HttpResponse {
             response += "\r\n";
 
             response += date.toString();
-
-            response += root;
 
             FileInputStream fis = new FileInputStream(f);
 
